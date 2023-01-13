@@ -1,4 +1,19 @@
+ /* O CSS usa as tags do HTML para alterar os atributos, um exemplo é body, strong e etc... Basta ler o HTML e ver as tagas que deseja alterar */ 
+
+
+
 body {
     background-color: black; /* Cor de fundo do site */
-    color: white; /* Cor do texto */
+    color: #F6F6F6; /* Cor do texto */ 
+}
+
+strong {
+    color: #22D4FD;
+}
+
+
+span{
+    color: #22D4FD; 
+    border: 1px solid #22D4FD; /* (Borda com 1 px de largura, do tipo sólida e cor da borda azul) */
+    padding: 10px; /* (Espaçamento interno de 10px) */
 }
