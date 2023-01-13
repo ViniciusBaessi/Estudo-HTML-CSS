@@ -11,6 +11,9 @@ strong {
     color: #22D4FD;
 }
 
+em strong{
+    color: red; /* Separando estruturas de strong para colocar as cores de forma indiviual */ 
+}
 
 span{
     color: #22D4FD; 
