@@ -1,0 +1,12 @@
+body {
+    background-color: rgb(63, 116, 187);
+    
+}
+
+h1{
+    color: rgb(41, 40, 40); /* Esses números se referem ao gradiente de cores */
+}
+
+p{
+    color: white;
+}
