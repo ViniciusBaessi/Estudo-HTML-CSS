@@ -7,8 +7,13 @@ body {
     color: #F6F6F6; /* Cor do texto */ 
 }
 
+h1{
+    text-align: center; /* Alinhamento do texto */ 
+}
+
 strong {
     color: #22D4FD;
+    font-size: 35px; /* Tamanho da fonte */ 
 }
 
 em strong{
@@ -19,4 +24,9 @@ span{
     color: #22D4FD; 
     border: 1px solid #22D4FD; /* (Borda com 1 px de largura, do tipo sólida e cor da borda azul) */
     padding: 10px; /* (Espaçamento interno de 10px) */
+}
+
+#imagem {
+    width: 100%;
+    height: 150px;
 }
