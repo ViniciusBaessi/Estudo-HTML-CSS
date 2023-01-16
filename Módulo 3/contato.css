@@ -23,3 +23,36 @@ form label, form legend {
     margin: 20px 0;
 }
 
+.enviar{
+    width:40%;
+    padding: 15px 0;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s all;
+    
+}
+
+.enviar:hover{
+   background: darkorange;
+   transform: scale(1.2);
+}
+
+table {
+    margin: 20px 0 40px;
+}
+
+thead{
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 8px 15px;
+}
