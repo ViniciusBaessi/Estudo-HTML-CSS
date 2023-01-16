@@ -28,6 +28,11 @@ nav a {
     text-decoration: none; /*Tirando o sublinhado deixado pela tag <a> */
 }
 
+nav a:hover{  /*Criando inteações ao clique do usuário*/
+    color: #C78C19;
+    text-decoration: underline; /*Deixa o texto sublinhado ao selecionar*/
+}
+
 .produtos { /*Criando o bloco que irá armazenar os conteúdos*/
     width: 940px;
     margin: 0 auto;
@@ -39,6 +44,11 @@ nav a {
     text-align: center;
     width: 30%;
     vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000; /*borda*/
+    border-radius: 10px; /*arredondando borda*/
 }
 
 .produtos h2 {
@@ -49,9 +59,9 @@ nav a {
 .produto-preço {
     font-size: 22px;
     font-weight: bold;
+    margin-top: 10px;
 }
 
 .produto-descrição {
     font-size: 18px ;
-    
 }
