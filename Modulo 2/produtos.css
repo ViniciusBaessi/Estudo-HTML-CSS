@@ -1,0 +1,23 @@
+header {
+    background: #BBBBBB;
+}
+.caixa {
+    position: relative;
+    width: 940px;
+}
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+nav li {
+   display: inline; /*Faz com que um arquivo/texto fique ao lado de outro e não embaixo */
+   margin: 0 0 0 15px; /*Espaçamento do texto à esquerda */
+}
+nav a {
+    text-transform: uppercase; /*Deixando texto em maísculo */
+    color: black; /*Deixando texto na cor preta */
+    font-weight: bold; /*Deixando texto em negrito */
+    font-size: 22px; /*Tamanho do texto */
+    text-decoration: none; /*Tirando o sublinhado deixado pela tag <a> */
+}
