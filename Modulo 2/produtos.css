@@ -28,9 +28,9 @@ nav a {
     text-decoration: none; /*Tirando o sublinhado deixado pela tag <a> */
 }
 
-nav a:hover{  /*Criando inteações ao clique do usuário*/
+nav a:hover{  /*Criando interações ao passar o mouse em cima*/
     color: #C78C19;
-    text-decoration: underline; /*Deixa o texto sublinhado ao selecionar*/
+    text-decoration: underline; /*Deixa o texto sublinhado ao */
 }
 
 .produtos { /*Criando o bloco que irá armazenar os conteúdos*/
@@ -51,6 +51,20 @@ nav a:hover{  /*Criando inteações ao clique do usuário*/
     border-radius: 10px; /*arredondando borda*/
 }
 
+.produtos li:hover {  /*Criando interações ao passar o mouse em cima*/
+    border-color: #C78C19;
+} 
+
+
+.produtos li:hover h2 {  /*Criando interações ao passar o mouse em cima*/
+    border-color: #C78C19;
+    font-size: 34px;
+}
+ 
+.produtos li:active {  /*Criando interações ao clique*/
+    border-color: #088C19;
+} 
+
 .produtos h2 {
     font-size: 30px;
     font-weight: bold;
@@ -65,3 +79,16 @@ nav a:hover{  /*Criando inteações ao clique do usuário*/
 .produto-descrição {
     font-size: 18px ;
 }
+
+footer { /*Estilizando o meu rodapé*/
+    text-align: center;
+    background: url(bg.jpg); /*Inserindo uma imagem com textura de fundo*/
+    padding: 40px 0; /*Criadno espaço entre a imagem e as bordas do rodapé*/
+}
+
+.Copyright {
+   color: white; 
+   font-size: 13px;
+   margin: 20px 0 0;  /*Espaçamento*/
+}
+
