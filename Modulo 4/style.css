@@ -1,3 +1,7 @@
+body{ /* Fonte externa google*/
+	font-family: 'Montserrat', sans-serif;
+}
+
 header {
 	background: #BBBBBB;
 	padding: 20px 0;
@@ -179,6 +183,48 @@ td, th {
     margin: 0 20px 20px 0;
 }
 
+.mapa {
+	padding: 3em 0;
+}
+
+.beneficios {
+	padding: 3em 0;
+}
+
+.conteudo-beneficios{
+	width: 640px;
+	margin: 0 auto;
+}
+
+.itens {
+	line-height: 1.5;
+}
+
+.itens:nth-child(1) { /*Deixando o primeiro tópico em negrito*/
+	font-weight: bold;
+}
+
+
+.lista-beneficios {
+	width: 40%;
+	display: inline-block;
+	vertical-align: top ;
+}
+
 .imagembeneficios {
     width: 60%;
 }
+
+
+
+.mapa p {
+	padding: 0 0 2em;
+	text-align: center;
+}
+.video {
+	width: 560px;
+	margin: 2em auto;
+}
+
+
+
