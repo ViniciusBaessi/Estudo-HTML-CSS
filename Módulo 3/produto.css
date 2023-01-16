@@ -1,0 +1,94 @@
+header {
+    background: #BBBBBB;
+    padding: 20px 0; /*Espaçamento cabeçalho*/
+}
+
+.caixa {
+    position: relative; 
+    width: 940px; /*Uma caixa interna para ajustar os atributos*/
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute; /*Organizando os atributos*/
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+   display: inline; /*Faz com que um arquivo/texto fique ao lado de outro e não embaixo */
+   margin: 0 0 0 15px; /*Espaçamento do texto à esquerda */
+}
+
+nav a {
+    text-transform: uppercase; /*Deixando texto em maísculo */
+    color: black; /*Deixando texto na cor preta */
+    font-weight: bold; /*Deixando texto em negrito */
+    font-size: 22px; /*Tamanho do texto */
+    text-decoration: none; /*Tirando o sublinhado deixado pela tag <a> */
+}
+
+nav a:hover{  /*Criando interações ao passar o mouse em cima*/
+    color: #C78C19;
+    text-decoration: underline; /*Deixa o texto sublinhado ao */
+}
+
+.produtos { /*Criando o bloco que irá armazenar os conteúdos*/
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.produtos li { /*Centralizando os conteúdos e dimensionando os espaços*/
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000; /*borda*/
+    border-radius: 10px; /*arredondando borda*/
+}
+
+.produtos li:hover {  /*Criando interações ao passar o mouse em cima*/
+    border-color: #C78C19;
+} 
+
+
+.produtos li:hover h2 {  /*Criando interações ao passar o mouse em cima*/
+    border-color: #C78C19;
+    font-size: 34px;
+}
+ 
+.produtos li:active {  /*Criando interações ao clique*/
+    border-color: #088C19;
+} 
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto-preço {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.produto-descrição {
+    font-size: 18px ;
+}
+
+footer { /*Estilizando o meu rodapé*/
+    text-align: center;
+    background: url(bg.jpg); /*Inserindo uma imagem com textura de fundo*/
+    padding: 40px 0; /*Criadno espaço entre a imagem e as bordas do rodapé*/
+}
+
+.Copyright {
+   color: white; 
+   font-size: 13px;
+   margin: 20px 0 0;  /*Espaçamento*/
+}
+
