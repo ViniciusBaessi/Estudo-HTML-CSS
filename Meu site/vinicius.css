@@ -1,0 +1,94 @@
+
+
+header { /*Cabeçalho*/
+
+    
+    background: rgb(117, 117, 117);
+    padding: 22em;
+    border: rgb(73, 73, 73) 8px solid;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------*/
+
+.minhafoto{ /*Minha foto*/
+ 
+    position: absolute; /*Permite a alteração do espaçamento com base no espaçamento pré-definido*/
+    width: 10%; /*Tamanho da imagem*/
+    top: 90px;  /*Distância do topo da página*/
+    left: 290px; /*Distância da direita da página*/
+    box-shadow: 10px 10px 90px #000000; /*Sombreamento*/
+    border: black solid; /*Cor da borda*/
+    border-radius: 10%; /*Arredondando a borda*/
+    border-width: 1px; /*Grosura da borda*/
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------*/
+
+nav { /*Caixa de texto*/
+
+    position: absolute; /*Permite a alteração do espaçamento com base no espaçamento pré-definido*/
+    top: 320px;  /*Distância do topo da página*/
+    right: 19%; /*Distância da direita da página*/
+    left: auto;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------*/
+
+nav li { /*Espaçamento dentro da caixa de texto*/
+
+    display: inline; /*Deixando texto uma única linha*/
+    margin: 0 0 0 350px; /*Aumentando o espaço entre as palavras*/  
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------*/
+
+nav a { /*Próprio texto*/
+
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-decoration: none; 
+    font-size: 6em;
+    text-decoration: underline
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------*/
+
+body { /*Corpo do site*/
+    
+    background: rgb(194, 188, 188); /*Cor de fundo*/
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------*/
+
+.texto {
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 260px;
+    font-size: 6em;
+    margin-left:2000px
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------*/
+
+.apresentação {
+    display: block;
+    margin-top: 200px;
+    margin-left:300px;
+    margin-right:300px;
+    font-size: 90px;
+    text-align: justify;  
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------*/
+
+footer {
+    position: absolute;
+    background: rgb(117, 117, 117);
+    padding: 9em;
+    border: rgb(73, 73, 73) 8px solid;
+    bottom: 0;
+    width: 100%;
+}
+
+
