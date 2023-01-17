@@ -1,2 +1,2 @@
 # HTML-CSS
-Repositório para estudo de HTML5 e CSS3 na alura
+Repositório para armazenar conteúdos de HTML5 e CSS3 aprendidos na plataforma Alura e Curso em vídeo.
