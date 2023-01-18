@@ -12,9 +12,23 @@
 
     <picture> <!--Altera a imagem de acordo com o tamanho do dispositivo-->
         <source media="(max-width: 1050px)" srcset="Imagens/foto-P.png" type="image/png">
-        <source media="(max-width: 1600px)" srcset="Imagens/foto-M.png" type="image/png">
+        <source media="(max-width: 1200px)" srcset="Imagens/foto-M.png" type="image/png">
         <img src="Imagens/foto-G.png" alt="Foto grande">
     </picture>
+
+    <hr>
+
+    <h1>Reprodução de áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+
+    <audio preload="metadata" autoplay controls loop> <!--(controls) é opcional pois permite que pause a música-->
+    <source src="midias/Musga.mp3" type="audio/mpeg"> 
+    </audio>
+
+    <hr>
+
+
+
     
 </body>
 </html>
