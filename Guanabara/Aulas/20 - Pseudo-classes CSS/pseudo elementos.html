@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+
+    <!--
+            #  = id
+            .  = class
+            :  = pseudo-class
+            :: = pseudo-element
+            >  = children (filho ou conteúdo dentro de outro)
+    -->
+
+
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif; /* Mudando a fonte */
+        }
+
+        a {
+            color: red; /* Mudando a cor do link */
+            text-decoration: none; /* Tira o sublinhado do link */
+            font-weight: bold; /* Texto em negrito */
+        }
+
+        a:visited { /* Se o link for visitado (geralmente fica roxo) a cor da fonte será verde */
+            color:green;
+        }
+
+        a:hover {
+            color: black; /* Ao passar o mouse em cima, o texto fica preto*/
+            text-decoration: underline; /* Ao passar o mouse em cima, o texto fica sublinhado */
+        }
+
+        a:active { /* Ao clicar no link, o texto fica amarelo*/
+            color: yellow;
+        }
+        
+        a::after { /* Após o (a) ececuta a estilização abaixo. O comando é feito usado dois pontos duas vezes (::)*/
+            content: '[link]';  /* Conteúdo após o (a)*/
+            text-decoration: none; /* Texto não sublinhado */
+            font-weight: normal; /* Retira a formatação do (a), automaticamnete fica com a formatação do (body)*/
+            color: blue; /* Cor do texto */
+        }
+
+        a::before {
+            content: '☍ ';  /* Antes do (a) aparece o ícone de "corrente", ou qualquer outro que quiser. */
+        }
+
+        .especial {
+            background-color: rgb(221, 221, 221); /* Cor ede fundo cinza na classe (especial) */
+        }
+        
+
+        .especial::before {
+            content: '⚠ '; /* ícone (⚠) antes do texto da classe especial */
+        }
+
+    </style>
+
+
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://github.com/ViniciusBaessi" target="_blank" rel="external" class="especial">Repositório Github</a></li>
+
+        <li><a href="https://www.linkedin.com/in/vinicius-baessi/" target="_blank" rel="external">Linkedin</a></li>
+
+        <li><a href="https://www.instagram.com/vinicius_baessi/" target="_blank" rel="external">Instagram</a></li>
+    </ul>
+</body>
+</html>
