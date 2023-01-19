@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+/* 
+
+Em HTML é (id) e em CSS é (#) Pode ter um id por atributo
+Em HTML é (class) e em CSS é (.)  Pode ter uma class para vários atributos
+
+*/
+
+
+
+body {
+    background-color: aquamarine; /* Cor de fundo da página */
+    font-family: Arial, Helvetica, sans-serif; /* Fonte do texto */
+}
+
+#principal {  /* ID /
+    text-align: center;  /* Alinhamento do título */
+    background-color: darkgreen; /* Fundo do título */
+    color: white; /* Cor da fonte*/
+}
+
+.aprendendo { /* Class /
+    color: rgb(28, 116, 86); /* Cor da fonte*/
+}
+
+h2 {
+    color: rgb(10, 44, 33); /* Cor da fonte*/
+}
