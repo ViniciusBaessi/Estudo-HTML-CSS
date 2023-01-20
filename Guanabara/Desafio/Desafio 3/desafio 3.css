@@ -37,13 +37,13 @@ header {
 #subtitulo {
     font-family: 'Montserrat', sans-serif;
     color:white;
-    font-weight: bold;
     font-size: 20px;
     width: 27em;
     text-align: center;
     margin: auto;
     padding-top: 60px;
     padding-bottom: 77px;
+    text-shadow:2px 2px 6px black;
     
 }
 
@@ -66,10 +66,12 @@ body {
     background-color: #E8E5C2;
 }
 
-.estilo {
+#estilo {
     background-color: white;
-    margin: 0 25%;
-    padding-bottom: 100%; 
+    margin: 0 19%;
+    padding-bottom: 4em; 
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 .titulo {
@@ -95,6 +97,7 @@ body {
     font-size: 20px;
     text-size-adjust: mono;
     text-indent: 2%;
+    text-align: justify;
 }
 
 .link {
@@ -126,9 +129,15 @@ body {
     font-weight: bold;
 }
 
+.grifado2 {
+    color: #3A5C37;
+    font-weight: bold;
+}
+
+
 #foto2 {
     display: block;
-    padding: 22px 48px;
+    padding: 22px 51px;
     width: 90%;
     height: 24em;
 }
@@ -144,8 +153,53 @@ body {
 .video {
     margin-top: 40px;
     background-color: #063D1E;
-    width: 92.5%;
+    width: 94%;
     height: 40em;
     padding: 35px 40px;
 }
 
+#estilo2 {
+    display: block;
+    border-radius: 20px;
+    background-color: #83E1AD;
+    margin: 30px 2em 0px 2em;
+    height: 30em;
+    
+}
+
+#estilo2 > h1 {
+    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color:white;
+    font-weight: bold;
+    background-color: #1A5C37;
+    padding: 15px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.lista::before {
+    content:'✓'; 
+}
+
+div > ul {
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.lista {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    margin-right: 50px;
+    margin-left: 20px;
+    
+}
+.texto2 {
+    font-family: 'Roboto Mono', monospace;
+    margin: 0 2%;
+    padding: 30px 0 15px 0 ;
+    font-size: 17px;
+    text-indent: 2%;
+    text-align: justify;
+}
