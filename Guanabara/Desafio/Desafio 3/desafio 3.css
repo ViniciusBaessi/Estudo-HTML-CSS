@@ -1,0 +1,151 @@
+
+
+
+@font-face {  /* Inserindo fontes na memória do pc (baixadas) */
+    font-family: 'game';
+    src: url('fontes/idroid.otf') format(opentype); /* Formato ttf conforme descrito abaixo*/
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&family=Oswald&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&family=Oswald&family=Roboto+Mono:ital,wght@1,200&display=swap');
+
+
+header {
+    
+    background-image: linear-gradient(to top,#237447, #30a364, #3ab471);
+    height: 300px;
+}
+
+#principal {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top:2em;
+}
+
+#subtitulo {
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+    width: 27em;
+    text-align: center;
+    margin: auto;
+    padding-top: 60px;
+    padding-bottom: 77px;
+    
+}
+
+.menu {
+    display: inline;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 2%;
+    margin-left:1%;
+    color:white;
+    font-weight: bold;  
+}
+
+.menu:hover {
+    background-color:#2BA467 ;
+    color:#005019;
+    padding: 10px;
+}
+
+body {
+    background-color: #E8E5C2;
+}
+
+.estilo {
+    background-color: white;
+    margin: 0 25%;
+    padding-bottom: 100%; 
+}
+
+.titulo {
+    font-family: 'game';
+    color: #0B3B28;
+    font-size: 2em;padding-top: 20px;
+    margin: 0 2%;
+}
+
+.subtitulo {
+    font-family: 'game';
+    color: #0B3B28;
+    font-size: 1.6em;
+    padding: 10px 0 5px 0;
+    margin: 1.5% 2% 0;
+    background-image: linear-gradient(to right,#8AE1B1, #B8F0D0, #ffffff);
+}
+
+.texto {
+    font-family: 'Roboto Mono', monospace;
+    margin: 0 2%;
+    padding: 30px 0 15px 0 ;
+    font-size: 20px;
+    text-size-adjust: mono;
+    text-indent: 2%;
+}
+
+.link {
+    background-color: #83E1AD;
+    color: #3A5C37;
+    padding: 0.5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.link::after {
+    content:'🔗'; 
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+#foto1 {
+    display: block;
+    padding-top: 11px;
+    width: 100%;
+    height: 20em;
+}
+
+.grifado {
+    background-color: #83E1AD;
+    color: #3A5C37;
+    font-weight: bold;
+}
+
+#foto2 {
+    display: block;
+    padding: 22px 48px;
+    width: 90%;
+    height: 24em;
+}
+
+#foto3 {
+    display: block;
+    padding: 40px 48px;
+    width: 39%;
+    height: 16em;
+    margin: auto;
+}
+
+.video {
+    margin-top: 40px;
+    background-color: #063D1E;
+    width: 92.5%;
+    height: 40em;
+    padding: 35px 40px;
+}
+
