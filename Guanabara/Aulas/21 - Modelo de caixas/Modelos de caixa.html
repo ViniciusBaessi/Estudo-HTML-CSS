@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de caixas</title>
+
+    <style>
+
+        h1 {  /* Caixa h1 (box-level / ocupa a linha inteira ou widht 100%) */
+            background-color: lightgreen; /* Cor de fundo da caixa h1 */
+            height: 300px; /* Altura da caixa */
+            width: 300px; /* Largura da caixa */
+            border-width: 10px; /* Grossura da caixa */
+            border-style: solid; /* Torna a vorda visível */
+            border-color: red; /* Cor da borda */
+
+            /* Padding é o espaço entre a borda e a caixa do texto (parte de dentro). Abaixo está na ordem das direções (cima, direita. baixo, esquerda) */
+
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+
+
+            /* Margin é o espaço entre a borda e a caixa (parte de fora). Abaixo está na ordem das direções (cima, direita. baixo, esquerda) */
+
+            margin: 20px 40px; /* Simplificando o comando margin (cima e baixo 20px, direita e esquerda 40px*/
+
+
+            /* Outiline é uma borda que contorna a (border)*/
+
+            outline-width: 5px;
+            outline-style: dashed;
+            outline-color: salmon;
+
+        }
+
+        a {  /* Caixa h1 (inline-level / ocupa somente o seu espaço e é alocado em linha) */
+
+
+            /* ATENÇÃO: Ao usar o comando display: block; O inline-level vira um box-level*/
+             /* ATENÇÃO: Ao usar o comando display: inline-block; Ele continua inline mas permite alterações de altura e largura como se fosse um block-level*/
+
+
+            border-width: 10px;
+            border-style: double;  /* Solid, dashed, dotted, double, groove */
+            border-color: red ;
+        }
+
+        #centralizada {
+            margin: auto;  /* Margin centralizada de forma automática sem alterar as direções */
+            border: 10px solid blue;  /* Simplificando o comando border acima*/
+            padding: 10px; /* Simplificando o comando border acima (todos os lados são 10px) */
+            outline: 5px dashed salmon; /* Simplificando o comando outline acima*/
+
+        }
+
+
+
+
+
+
+
+
+
+
+    </style>
+
+
+</head>
+<body>
+    <h1>Exemplo de (box-level)</h1>
+
+    <p>
+        Parágrafos também são exemplos de box-level.
+        <a href="#">Links são exemplos de caixas inline-level</a>. 
+        Vamos ver como tudo isso funciona.</p>
+
+    <h1 id="centralizada">Exemplo de (box-level)</h1>
+
+</body>
+</html>

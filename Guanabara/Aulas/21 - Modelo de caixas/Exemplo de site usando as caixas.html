@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: aqua;
+            padding: 3px;
+            box-shadow: 1px 1px 1px black; /* horizontal (negativo e positivo), vertical (negativo e positivo), espalhamento da sombra. */
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: rgb(165, 21, 21);
+
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+
+          footer > p {
+            margin: 0px;
+        }
+
+
+    </style>
+
+
+</head>
+<body>
+    <!-- Exemplo de organização e tags semanticas ao invés de usar (div) em todo o código-->
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+
+    </header>
+
+    <main>
+        <section id="Assuntos"></section>
+        <section id="Notícias"></section>
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <aside>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem error tempora placeat adipisci obcaecati, quas magni nulla, velit voluptatum inventore rerum quia reprehenderit aliquid cupiditate, numquam harum? Corrupti, dolor reprehenderit.</p>
+                    <p>Artigo escrito por José Irineu</p>
+                </aside>
+            </article>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por mim (developed for me)</p>
+    </footer>
+    
+</body>
+</html>
