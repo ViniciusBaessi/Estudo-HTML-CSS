@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de responsividade</title>
+
+    <style>
+        body {
+            background-color: grey;
+        }
+
+
+        main {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+
+            /* Tornando a borda branca responsiva */
+
+            min-width: 280px;   /* Geralmente é uma resolução vertical de celulares menores */
+            max-width: 800px;   /* Espaço máximo a se ocupar independente do tamanho da tela */
+            margin: auto;  /* Centraliza o bloco branco de forma automática */
+        }
+
+        img {
+            width: 100%; /* A imagem ocupa 100% do bloco branco */
+        }
+
+    </style>
+
+
+
+
+</head>
+<body>
+    <main>
+        <h1>Testando responsividade</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum, magni in officia reiciendis nobis quos ipsam a consequatur numquam laudantium sed nesciunt, cumque distinctio voluptatibus pariatur cupiditate harum, amet corporis!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum, magni in officia reiciendis nobis quos ipsam a consequatur numquam laudantium sed nesciunt, cumque distinctio voluptatibus pariatur cupiditate harum, amet corporis!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum, magni in officia reiciendis nobis quos ipsam a consequatur numquam laudantium sed nesciunt, cumque distinctio voluptatibus pariatur cupiditate harum, amet corporis!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum, magni in officia reiciendis nobis quos ipsam a consequatur numquam laudantium sed nesciunt, cumque distinctio voluptatibus pariatur cupiditate harum, amet corporis!</p>
+
+        <picture>
+            <!-- Se a tela tiver a largura menor que 800px, mostre a imagem menor-->
+            <source media = "(max-width: 800px)" srcset="imagens/irina-blok-pq.jpg">
+            <img src="imagens/irina-blok.jpg" alt="">
+        </picture>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat ipsum veritatis dolorum similique nisi sint aperiam, a, ipsa tempora iste id temporibus numquam accusantium eum deserunt consectetur. Inventore, explicabo libero!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat ipsum veritatis dolorum similique nisi sint aperiam, a, ipsa tempora iste id temporibus numquam accusantium eum deserunt consectetur. Inventore, explicabo libero!</p>
+    </main>
+    
+</body>
+</html>
