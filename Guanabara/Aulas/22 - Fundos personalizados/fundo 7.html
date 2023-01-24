@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamento vertical</title>
+
+    <style>
+
+        #container {
+            background-image: url(Imagens/target001.png);
+            background-size: 100% 100%;
+
+            position: relative; /* Para alterar as propriedades de left top... o container tem que ser relativo*/
+            height: 96vh;
+            padding: 10px;
+            background-color: purple;
+        }
+
+        #conteudo {
+
+            background-image: url(Imagens/target001.png);
+            background-size: 100% 100%;
+
+            position: absolute; /* Para alterar as propriedades de left top... o conteudo tem que ser absoluto*/
+            height: 200px;
+            width: 400px;
+            background-color: yellow;
+
+            /* Alternado as propriedades para que o conteudo se mova dentro do container*/
+            left: 50%;
+            top: 50%;
+
+            transform: translate(-50%, -50%); /* Centralizando exatamento ao meio*/
+            
+        }
+
+
+    </style>
+
+
+</head>
+<body>
+    <section id="container">
+        <article id="conteudo">
+
+        </article>
+    </section>
+    
+</body>
+</html>
