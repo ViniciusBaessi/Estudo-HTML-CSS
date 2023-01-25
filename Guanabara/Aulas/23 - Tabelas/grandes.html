@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas semânticas</title>
+
+    <style>
+
+        body {
+           font-family: Arial, Helvetica, sans-serif; 
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgrey;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+            position: relative; /*Fixando linha de título ao scrolar o mouse */
+        }
+
+        thead > tr > th {
+            position: sticky; /*Fixando linha de título ao scrolar o mouse */
+            top: -1px; /*Fixando linha de título ao scrolar o mouse */
+            background-color: gray;
+            
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        thead, tfoot {
+            background-color: gray;
+        }
+
+        .num {
+            text-align: right;
+        }
+
+        tbody > tr:nth-child(2n) { /* Efeito zebrado na tabela*/
+            background-color: lightgray;
+        }
+
+    </style>
+
+
+
+
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+
+<!--
+    ANATOMIA PARA TABELAS (GRANDES)
+
+    TABLE = Tabela
+
+        CAPTION (título)
+
+        THEAD (cabeçalho)
+            TR, TD, TH
+
+        TBODY (corpo)
+            TR, TD, TH
+
+        TFOOT (rodapé)
+            TR, TD, TH
+-->
+
+<table>
+
+    <caption>Populção das unidades federativas</caption>
+
+    <thead>
+        <tr>
+            <th scope="col">Estado</th> <!-- (Th) pois se refere a um título da tabela e (scope -col) significa título de coluna-->
+            <th scope="col" style="width: 90px;">Poulação</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>São Paulo</td> <!-- (Td) pois se refere a um dado da tabela-->
+            <td class="num">45.919,049</td>
+        </tr>
+        <tr>
+            <td>Minas Gerais</td>
+            <td class="num">20.168,791</td>
+        </tr>
+        <tr>
+            <td>Rio de Janeiro</td>
+            <td class="num">17.164,943</td>
+        </tr>
+        <tr>
+            <td>Bahia</td>
+            <td class="num">14.264,943</td>
+        </tr>
+        <tr>
+            <td>Paraná</td>
+            <td class="num">19.164,543</td>
+        </tr>
+        <tr>
+            <td>Pernambuco</td>
+            <td class="num">11.184,853</td>
+        </tr>
+        <tr>
+            <td>Ceará</td>
+            <td class="num">6.264,983</td>
+        </tr>
+        <tr>
+            <td>Pará</td>
+            <td class="num">2.126,327</td>
+        </tr>
+        <tr>
+            <td>Santa Catarina</td>
+            <td class="num">3.879,943</td>
+        </tr>
+        <tr>
+            <td>Rio de Janeiro</td>
+            <td class="num">17.164,943</td>
+        </tr>
+        <tr>
+            <td>Bahia</td>
+            <td class="num">14.264,943</td>
+        </tr>
+        <tr>
+            <td>Paraná</td>
+            <td class="num">19.164,543</td>
+        </tr>
+        <tr>
+            <td>Pernambuco</td>
+            <td class="num">11.184,853</td>
+        </tr>
+        <tr>
+            <td>Ceará</td>
+            <td class="num">6.264,983</td>
+        </tr>
+        <tr>
+            <td>Pará</td>
+            <td class="num">2.126,327</td>
+        </tr>
+        <tr>
+            <td>Santa Catarina</td>
+            <td class="num">3.879,943</td>
+        </tr>
+    
+        
+    </tbody>
+
+    <tfoot>
+        <th scope="row">Total de habitantes</th> <!-- (Th) pois se refere a um título da tabela e (scope -row) significa título de linha-->
+        <td class="num"><strong>00000</strong></td>
+    </tfoot>
+
+</table>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero hic tempore eveniet inventore cumque repudiandae? Consequuntur magnam quo non, at unde neque quod dolor porro, dignissimos delectus nam ipsum suscipit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab ipsam, voluptatem beatae porro unde asperiores officiis vel corporis amet temporibus? A in cupiditate adipisci sit maiores temporibus error explicabo non! Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, minima illum. Aliquid nihil quas cupiditate ut temporibus inventore quisquam sit modi labore incidunt, reiciendis in, facere ipsam! Cumque, nisi nam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Non debitis nemo, illum quibusdam explicabo esse, eos reiciendis facere eaque odio at libero eligendi quae tenetur ipsa harum beatae nisi quidem! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores, ratione aperiam dolores temporibus, quam blanditiis, eligendi nisi voluptate ullam possimus autem? Doloribus maxime nihil magni, iure harum ipsam minus aliquid. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste tenetur, culpa repudiandae sit eius corrupti laudantium voluptas, porro beatae, ex odit velit eveniet quisquam vitae eligendi molestias exercitationem ipsum placeat? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam a voluptas rerum provident facere repudiandae, consequatur illum qui distinctio modi? Eligendi sunt asperiores adipisci nostrum ea reiciendis, maxime alias eius. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel nostrum nesciunt sequi ex velit necessitatibus quisquam amet vero, unde, corrupti deserunt officia. Sint magni, amet minima iusto consequatur repellat voluptatem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam illo, quasi repellendus eius placeat sint reprehenderit dolorum, doloremque saepe, non dolores maxime eos obcaecati. Ex quidem porro inventore expedita ea. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum ducimus ipsa totam, repellendus quod minus reiciendis mollitia nihil odio sunt, molestiae dolore accusantium voluptate unde rem autem! Totam, at consequuntur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum ipsa dolores veniam, tempore tempora, porro aspernatur minima totam ipsum amet debitis iure. Odit, dicta ullam dignissimos voluptates animi maiores vel! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid, deserunt vel. Tempore quod dolores aut minima distinctio dolore nobis eum perspiciatis, illo eos maxime natus, quisquam odio. Ad, eos natus!</p>
+    
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero hic tempore eveniet inventore cumque repudiandae? Consequuntur magnam quo non, at unde neque quod dolor porro, dignissimos delectus nam ipsum suscipit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab ipsam, voluptatem beatae porro unde asperiores officiis vel corporis amet temporibus? A in cupiditate adipisci sit maiores temporibus error explicabo non! Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, minima illum. Aliquid nihil quas cupiditate ut temporibus inventore quisquam sit modi labore incidunt, reiciendis in, facere ipsam! Cumque, nisi nam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Non debitis nemo, illum quibusdam explicabo esse, eos reiciendis facere eaque odio at libero eligendi quae tenetur ipsa harum beatae nisi quidem! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores, ratione aperiam dolores temporibus, quam blanditiis, eligendi nisi voluptate ullam possimus autem? Doloribus maxime nihil magni, iure harum ipsam minus aliquid. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste tenetur, culpa repudiandae sit eius corrupti laudantium voluptas, porro beatae, ex odit velit eveniet quisquam vitae eligendi molestias exercitationem ipsum placeat? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam a voluptas rerum provident facere repudiandae, consequatur illum qui distinctio modi? Eligendi sunt asperiores adipisci nostrum ea reiciendis, maxime alias eius. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel nostrum nesciunt sequi ex velit necessitatibus quisquam amet vero, unde, corrupti deserunt officia. Sint magni, amet minima iusto consequatur repellat voluptatem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam illo, quasi repellendus eius placeat sint reprehenderit dolorum, doloremque saepe, non dolores maxime eos obcaecati. Ex quidem porro inventore expedita ea. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum ducimus ipsa totam, repellendus quod minus reiciendis mollitia nihil odio sunt, molestiae dolore accusantium voluptate unde rem autem! Totam, at consequuntur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum ipsa dolores veniam, tempore tempora, porro aspernatur minima totam ipsum amet debitis iure. Odit, dicta ullam dignissimos voluptates animi maiores vel! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid, deserunt vel. Tempore quod dolores aut minima distinctio dolore nobis eum perspiciatis, illo eos maxime natus, quisquam odio. Ad, eos natus!</p>
+    
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero hic tempore eveniet inventore cumque repudiandae? Consequuntur magnam quo non, at unde neque quod dolor porro, dignissimos delectus nam ipsum suscipit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab ipsam, voluptatem beatae porro unde asperiores officiis vel corporis amet temporibus? A in cupiditate adipisci sit maiores temporibus error explicabo non! Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, minima illum. Aliquid nihil quas cupiditate ut temporibus inventore quisquam sit modi labore incidunt, reiciendis in, facere ipsam! Cumque, nisi nam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Non debitis nemo, illum quibusdam explicabo esse, eos reiciendis facere eaque odio at libero eligendi quae tenetur ipsa harum beatae nisi quidem! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores, ratione aperiam dolores temporibus, quam blanditiis, eligendi nisi voluptate ullam possimus autem? Doloribus maxime nihil magni, iure harum ipsam minus aliquid. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste tenetur, culpa repudiandae sit eius corrupti laudantium voluptas, porro beatae, ex odit velit eveniet quisquam vitae eligendi molestias exercitationem ipsum placeat? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam a voluptas rerum provident facere repudiandae, consequatur illum qui distinctio modi? Eligendi sunt asperiores adipisci nostrum ea reiciendis, maxime alias eius. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel nostrum nesciunt sequi ex velit necessitatibus quisquam amet vero, unde, corrupti deserunt officia. Sint magni, amet minima iusto consequatur repellat voluptatem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam illo, quasi repellendus eius placeat sint reprehenderit dolorum, doloremque saepe, non dolores maxime eos obcaecati. Ex quidem porro inventore expedita ea. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum ducimus ipsa totam, repellendus quod minus reiciendis mollitia nihil odio sunt, molestiae dolore accusantium voluptate unde rem autem! Totam, at consequuntur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum ipsa dolores veniam, tempore tempora, porro aspernatur minima totam ipsum amet debitis iure. Odit, dicta ullam dignissimos voluptates animi maiores vel! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid, deserunt vel. Tempore quod dolores aut minima distinctio dolore nobis eum perspiciatis, illo eos maxime natus, quisquam odio. Ad, eos natus!</p>
+          
+
+
+
+</body>
+</html>
