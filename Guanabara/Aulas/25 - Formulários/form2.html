@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Teste de formulário</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <p>
+            <label for="iusu">Usuário</label>
+            <input type="text" name="usu" id="iusu" required minlength="5" maxlength="15" size="15" placeholder="Digite o seu nome" autocomplete="username"> <!-- (required) Conteúdo obrigatório | (min / max length) Indica a quantidade de caracteres |(size) Mostra a quantidade de letras na caixa de texto sem rolagem-->
+        </p>
+
+        <P>
+            <label for="isen">Senha</label>
+            <input type="password" name="sen" id="isen" autocomplete="current-password" > <!-- Defindo input para "senha" e o navegador esconderá o texto | (autocomplete="current-password) deixa a senha anterior salva"-->
+        </P>
+        <p>
+            <input type="submit" value="Enviar"> <!-- (submit) Botão para enviar -->
+            <input type="reset" value="Limpar"> <!-- (reset) Botão para limpar texto -->
+        </p>
+
+    </form>
+
+</body>
+</html>
