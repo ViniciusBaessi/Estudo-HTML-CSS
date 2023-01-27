@@ -52,3 +52,19 @@ ul li {
 ul li:hover {
     text-decoration: underline;
 }
+
+section img {
+    display: inline;
+    width: 30%;
+    margin-top: 60px;
+    border-radius: 360px;
+}
+
+div h1, div p {
+    display: inline;
+    font-family: 'game';
+    color: white;
+    width: 250px;
+
+}
+
