@@ -62,9 +62,9 @@ section div {
 }
 
 div img {
-    
+    height: 160px;
     width: 150px;
-    margin-top: 60px;
+    margin-top: 90px;
     margin-left: 5px;
     border-radius: 360px;
     border: 1px solid green;
