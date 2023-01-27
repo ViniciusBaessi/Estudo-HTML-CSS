@@ -5,16 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media Query</title>
-    <link rel="stylesheet" href="../Estilos/MQ5.css">
+    <link rel="stylesheet" href="../Estilos/MQ5.css"> <!-- CSS -->
+    <link rel="stylesheet" href="../Estilos/MQ5-2.css"> <!-- CSS -->
 
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> <!-- ìcone google -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> <!-- ícone google -->
 
 
 </head>
-<body>
+<body onresize="mudouTamanho()"> <!-- Função javascript para monitorar o tamanho da tela-->
     <header>
         <h1>Meu site</h1>
-        <i id="burguer" class="material-icons md-light" onclick="clickMenu()">menu</i>  <!-- Inserindo a fonte do google fontes -->
+        <i id="burguer" class="material-icons md-light" onclick="clickMenu()">menu</i>  <!--(class) Inserindo a fonte do google fontes | (onclick=clickMenu) função javascript para clicar no ícone e exibir o menu de opções -->
         <menu id="itens">
             <ul>
                 <li><a href="#">Opção 1</a></li>
@@ -36,9 +37,22 @@
 
         </article>
     </main>
-    
-    <script> /* Função IF para abrir e fechar o menu*/
-        function clickMenu() {
+
+    <script> 
+
+        function mudouTamanho() { /* Se a tela for maior ele força o menu a aparecer*/
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+
+
+
+
+        function clickMenu() { /* Função IF para abrir e fechar o menu*/
+
 
             if (itens.style.display == 'block') {
                 itens.style.display = 'none'
