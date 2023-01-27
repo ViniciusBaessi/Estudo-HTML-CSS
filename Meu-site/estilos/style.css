@@ -30,7 +30,7 @@ nav ul {
     margin: 5px;
     float: right;
     margin-left: 90px;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 
@@ -38,12 +38,17 @@ nav ul {
 ul li {
     box-sizing: border-box;
     display: inline-block;
-    color: white;
+    color: rgb(255, 255, 255);
     margin-top: 19px;
-    font-size: 0.8em;
-    font-family: 'game';
+    font-size: 0.7em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
     margin-left: 0px;
-    padding: 2px;
+    padding: 8px 2px;
     text-transform: uppercase;
-    border: 1px solid green;
+
+}
+
+ul li:hover {
+    text-decoration: underline;
 }
