@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+
+@font-face {  /* Inserindo fontes na memória do pc (baixadas) */
+    font-family: 'game';
+    src: url('VCR_OSD_MONO_1.001.ttf') format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #404849;
+}
+
+nav {
+    box-shadow: 1px 1px 6px rgba(255, 255, 255, 0.452);
+    width: 100vw;
+    height: 80px;
+    background-color: #404849;
+}
+
+nav ul {
+    padding: 5px;
+    margin: 5px;
+    float: right;
+    display: block;
+    margin-left: 90px;
+}
+
+
+ul li {
+    box-sizing: border-box;
+    display: inline-block;
+    color: white;
+    margin-top: 19px;
+    font-size: 0.8em;
+    font-family: 'game';
+    margin-left: 0px;
+    padding: 8px;
+    text-transform: uppercase;
+    border: 1px solid green;
+}
