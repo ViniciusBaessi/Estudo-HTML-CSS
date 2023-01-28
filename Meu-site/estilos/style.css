@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+@font-face {  /* Inserindo fontes na memória do pc (baixadas) */
+    font-family: 'game';
+    src: url('VCR_OSD_MONO_1.001.ttf') format(truetype); /* Formato ttf conforme descrito abaixo*/
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {  /* Inserindo fontes na memória do pc (baixadas) */
+    font-family: 'apre';
+    src: url('MADE\ Tommy\ Soft\ Medium\ PERSONAL\ USE.otf') format(truetype); /* Formato ttf conforme descrito abaixo*/
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body, html {
+    background-color: #dad6d2;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #000000,#3b3b3b );
+    width: 100vw;
+    height: 80px;
+    margin-bottom: 30px;
+    box-shadow: 1px 0.5px 4px rgba(255, 255, 255, 0.404);
+    
+}
+
+menu ul {
+    float: right;
+    margin-right: 30px;
+    margin-top: 15px;
+    width: auto;
+}
+
+menu ul li {
+    font-family: 'game';
+    display: inline;
+    font-weight: 599;
+    text-shadow: 0.5px 2px 2px black;
+    margin-left: 20px;
+    padding: 15px 20px;
+    color: white;
+    letter-spacing: 2px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+menu ul li:hover {
+    background-image:linear-gradient(to bottom, #464646, transparent) ;
+}
+
+main {
+    display: inline;
+    margin: auto;
+    text-align: left;
+    
+}
+
+main h1, p {
+    font-family: 'apre';
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    color: black;
+    padding-left: 10px;
+    letter-spacing: 1px;
+}
+
+main p {
+    font-family: 'apre';
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    color: black;
+    padding-left: 10px;
+    letter-spacing: 1px;
+}
+
+strong {
+    color: rgb(7, 82, 180);
+}
+
+.texto {
+    
+    width: 350px;
+}
+
+.texto p {
+    font-size: x-small;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: none;
+    padding-top: 10px;
+}
