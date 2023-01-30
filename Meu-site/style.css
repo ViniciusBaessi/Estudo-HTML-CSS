@@ -71,6 +71,7 @@ li{
     padding: 12px 0px 1em 0px;
     background-color: var(--cor-lista-menu);
     text-transform: uppercase;
+    border: 0.1em solid rgba(0, 0, 0, 0.034);
 }
 
 
