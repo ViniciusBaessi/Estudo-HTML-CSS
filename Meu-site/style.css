@@ -48,6 +48,9 @@ span {
     display: block;
 }
 
+#botao:active {
+    color: red;
+  }
 
 
 li{
