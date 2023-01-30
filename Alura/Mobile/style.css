@@ -1,0 +1,14 @@
+@import url('../Mobile\ Fisrt/header.css');
+
+:root {
+    --cor-de-fundo: #EBECEE;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
