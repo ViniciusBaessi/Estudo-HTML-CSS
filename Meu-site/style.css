@@ -1,6 +1,12 @@
 @charset "UTF-8";
 
 
+:root {
+    --cor-fundo: rgb(41, 43, 54);
+    --cor-botao: rgb(0, 171, 223);
+    --cor-lista-menu:rgb(223, 222, 222);
+}
+
 * {
     margin: 0px;
     padding: 0px;
@@ -13,7 +19,7 @@ body {
 header {
     width: 100vw;
     height: 70px;
-    background-color: rgb(41, 43, 54);
+    background-color: var(--cor-fundo);
     position: relative;
 
 }
@@ -53,7 +59,7 @@ span {
 }
 
 #botao:active {
-    color: rgb(0, 171, 223);
+    color: var(--cor-botao);
     background-color: rgb(36, 36, 36);
   }
 
@@ -61,7 +67,7 @@ span {
 li{
     
     padding: 12px 0px 1em 0px;
-    background-color: rgb(223, 222, 222);
+    background-color: var(--cor-lista-menu);
     text-transform: uppercase;
 }
 
@@ -72,4 +78,10 @@ a:hover {
 
 .botao {
     display: none;
+}
+
+.cel {
+width: 50px;
+float: right;
+margin-top: 0.6em;
 }
