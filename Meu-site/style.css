@@ -14,6 +14,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(239, 239, 240, 0.514);
 }
 
 header {
@@ -90,21 +91,26 @@ margin-top: 0.6em;
 }
 
 
-img {
+main img {
     display: flex;
     width: 100vw;
     margin: auto;
-    box-shadow: 0px 0px 2px black;
+    
 }
 .foto {
     width: 170px;
     border-radius: 90px;
     margin-bottom: 30px;
+    box-shadow: 0px 0px 3px black;
 }
 
 section h1, h2 {
     display: block;
     text-align: justify;
-    padding: 0px 17px 0px 18px;
+    padding: 0px 10px 0px 15px;
 
+}
+
+strong {
+    color: var(--cor-botao);
 }
