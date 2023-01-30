@@ -30,7 +30,7 @@ header {
     background-image: linear-gradient(to bottom, #000000,#3b3b3b );
     width: 100vw;
     height: 80px;
-    margin-bottom: 30px;
+    margin-bottom: 158px;
     box-shadow: 1px 0.5px 4px rgba(255, 255, 255, 0.404);
     
 }
@@ -63,7 +63,10 @@ main {
     display: inline;
     margin: auto;
     text-align: left;
-    
+}
+
+main h1 {
+    margin-left: 200px;
 }
 
 main h1, p {
@@ -77,29 +80,24 @@ main h1, p {
     letter-spacing: 1px;
 }
 
-main p {
-    font-family: 'apre';
-    text-transform: uppercase;
-    font-size: 28px;
-    font-weight: 500;
-    color: rgb(255, 255, 255);
-    color: black;
-    padding-left: 10px;
-    letter-spacing: 1px;
-}
 
 strong {
     color: rgb(7, 82, 180);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.158);
 }
-
 .texto {
-    
-    width: 350px;
+    width: 700px; 
 }
 
 .texto p {
-    font-size: x-small;
+    display: flex;
+    font-size: 1.2em;
     font-family: Arial, Helvetica, sans-serif;
     text-transform: none;
-    padding-top: 10px;
+    padding-top: 40px;
+    text-align: justify;
+    text-indent: 15px;
+    padding-left: 210px;
+    letter-spacing: 1px;
+    color: black;
 }
