@@ -94,8 +94,17 @@ img {
     display: flex;
     width: 100vw;
     margin: auto;
+    box-shadow: 0px 0px 2px black;
 }
 .foto {
-    width: 150px;
-    border-radius: 80px;
+    width: 170px;
+    border-radius: 90px;
+    margin-bottom: 30px;
+}
+
+section h1, h2 {
+    display: block;
+    text-align: justify;
+    padding: 0px 17px 0px 18px;
+
 }
