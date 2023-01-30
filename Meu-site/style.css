@@ -18,9 +18,14 @@ header {
 
 }
 
+#botao {
+    font-size: 45px;
+}
+
 span {
-    margin: 9px 0px 0px 0px;
+    margin: 15px 0px 0px 0px;
     padding-left: 4px;
+    
 }
 
 .lista-menu {
