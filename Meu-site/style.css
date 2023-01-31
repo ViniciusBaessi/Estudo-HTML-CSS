@@ -208,17 +208,20 @@ strong {
 
 .swiper {
     width: 100vw;
-    height: 200px;
+    height: 229px;
   }
   .swiper-slide img {
     width: 100%;
   }
 
- .swiper-button-prev, .swiper-button-next {
+
+ .swiper-button-next:after, .swiper-button-prev:after {
     display: none;
  }
 
- .swiper-pagination {
+
+.swiper-horizontal>.swiper-pagination-horizontal {
     position: initial;
-    margin: 0.5em 0;
- }
+    margin: 1em 0;
+}
+
