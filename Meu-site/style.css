@@ -105,10 +105,11 @@ main img {
 
 section h1, h2 {
     display: block;
-    text-align: justify;
-    padding: 0px 10px 0px 17px;
+    margin: auto;
+    padding: 0px 10px 0px 40px;
     font-family: 'Oswald', Arial, sans-serif;
     letter-spacing: 1.5px;
+
     
 }
 
