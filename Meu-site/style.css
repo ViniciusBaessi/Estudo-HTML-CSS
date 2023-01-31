@@ -219,7 +219,7 @@ strong {
 
 .swiper {
     width: 100vw;
-    height: 229px;
+    height: 20%;
   }
   .swiper-slide img {
     width: 80%;
@@ -263,7 +263,7 @@ strong {
     display: block;
     text-align: justify;
     text-indent: 12px;
-    padding: 15px;
+    padding: 15px 14px 15px 15px;
     margin: 4px;
 }
 
@@ -273,7 +273,7 @@ strong {
 }
 
 #Habilidades div {
-    padding: 16px 4px 0px 4px;
+    padding: 16px 0px 0px 0px;
     background-color: var(--cor-lista-menu);
     border: 0.1em solid rgba(0, 0, 0, 0.082);
 }
