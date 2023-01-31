@@ -34,6 +34,11 @@ header {
     position: relative;
     box-shadow: 0px 0px 3px black;
     margin-bottom: 80px;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
 }
 
 .botao {
@@ -111,6 +116,7 @@ main img {
     border-radius: 90px;
     margin-bottom: 30px;
     box-shadow: 0px 0px 3px black;
+    margin-top: 150px;
 }
 
 #inicio h1, h2 {
