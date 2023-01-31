@@ -146,6 +146,7 @@ strong {
 
 #Redes-sociais div:hover {
     background-image: linear-gradient(to left, rgb(182, 182, 182), transparent) ;
+    text-decoration: underline;
 }
 
 
