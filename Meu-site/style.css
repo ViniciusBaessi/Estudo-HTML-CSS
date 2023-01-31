@@ -4,6 +4,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
 :root {
     --cor-fundo: rgb(41, 43, 54);
     --cor-botao: rgb(2, 154, 201);
@@ -107,10 +109,8 @@ main img {
     display: block;
     margin: auto;
     padding: 0px 10px 0px 40px;
-    font-family: 'Oswald', Arial, sans-serif;
+    font-family: 'Oswald', sans-serif;
     letter-spacing: 1.5px;
-
-    
 }
 
 #inicio h2 {
@@ -127,6 +127,7 @@ strong {
     text-indent: 12px;
     padding: 20px;
     margin: 4px;
+    margin-bottom: 80px;
 }
 
 
@@ -134,15 +135,26 @@ strong {
 #Redes-sociais div a {
     display: inline-flex;
     margin-left: 26px;
+    padding-bottom: 12px;
 }
 
 
 #Redes-sociais img {
     width: 50px;
-    border-radius: 14px;
+    border-radius: 10px;
 }
 
 #Redes-sociais p {
     margin: 15px;
+}
+
+#Redes-sociais h1{
+    display: block;
+    margin: auto;
+    padding: 0px 10px 40px 40px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1.5px;
+    font-weight: 550;
+    
 }
 
