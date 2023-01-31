@@ -142,7 +142,7 @@ strong {
 }
 
 #Redes-sociais div:hover {
-    background-color: rgb(33, 233, 233);
+    background-image: linear-gradient(to left, rgb(182, 182, 182), transparent) ;
 }
 
 
