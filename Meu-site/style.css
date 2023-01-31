@@ -151,7 +151,7 @@ strong {
 }
 
 #Redes-sociais div:hover {
-    background-image: linear-gradient(to left, rgb(182, 182, 182), transparent) ;
+    background-image: linear-gradient(to left, rgb(182, 182, 182), transparent);
     text-decoration: underline;
 }
 
@@ -213,7 +213,9 @@ strong {
     font-family: 'Oswald', sans-serif;
     width: 100vw;
     text-align: center;
-    padding-bottom: 30px;
+    
+    background-image: linear-gradient(to right, rgb(187, 235, 250), transparent);
+    padding: 5px;
 }
 
 .swiper {
@@ -236,6 +238,7 @@ strong {
 .swiper-horizontal>.swiper-pagination-horizontal {
     position: initial;
     margin: 1em 0;
+    margin-top: 30px;
 }
 
 
