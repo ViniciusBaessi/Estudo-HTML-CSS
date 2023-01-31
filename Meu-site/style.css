@@ -139,7 +139,7 @@ strong {
     text-indent: 12px;
     padding: 20px;
     margin: 4px;
-    margin-bottom: 120px;
+    margin-bottom: 100px;
 }
 
 
@@ -182,6 +182,8 @@ strong {
     font-family: 'Oswald', sans-serif;
     letter-spacing: 1.5px;
     font-weight: 550;
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
 }
 
 #Redes-sociais a {
@@ -211,6 +213,8 @@ strong {
     
     background-image: linear-gradient(to right, rgb(223, 224, 224), transparent);
     padding: 5px;
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
 }
 
 .swiper {
@@ -248,12 +252,28 @@ strong {
     font-weight: 550;
     padding-bottom: 20px;
     margin-bottom: 40px;
+    border-bottom: 1px solid black;
 }
 
 #Habilidades div img {
     width: 150px;
-    
-    
-   
+}
 
+#Habilidades .texto {
+    display: block;
+    text-align: justify;
+    text-indent: 12px;
+    padding: 15px;
+    margin: 4px;
+}
+
+#Habilidades .JS {
+    width: 150px;
+    height: 40px;
+}
+
+#Habilidades div {
+    padding: 16px 4px 0px 4px;
+    background-color: var(--cor-lista-menu);
+    border: 0.1em solid rgba(0, 0, 0, 0.082);
 }
