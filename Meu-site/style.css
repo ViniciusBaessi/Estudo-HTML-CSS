@@ -213,13 +213,14 @@ strong {
     height: 229px;
   }
   .swiper-slide img {
-    width: 100%;
+    width: 80%;
+   
   }
 
 
  .swiper-button-next:after, .swiper-button-prev:after {
-    color: rgb(255, 255, 255);
-    height: 0px;
+    color: var(--cor-fundo);
+    height: 16px;
     font-weight: bold;
  }
 
