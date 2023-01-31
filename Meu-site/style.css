@@ -206,34 +206,14 @@ strong {
     
 }
 
-#Projetos div {
-
-    display: inline-block;
-    border: 1px solid black;
-    
-
-    height: 120px;
-    width: 150px;
-    
-}
-
-#Projetos p {
-    margin: auto;
-    text-align: center;
-}
-
-
-
-
-.swiper-slide img {
+.swiper {
+    width: 100vw;
+    height: 200px;
+  }
+  .swiper-slide img {
     width: 100%;
-}
+  }
 
-.swiper-button-prev, .swiper-button-next {
+ .swiper-button-prev, .swiper-button-next {
     display: none;
-}
-
-.swiper-pagination {
-    position: initial;
-    margin: 1em 0;
-}
+ }

@@ -15,6 +15,8 @@
   href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
 />
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
 
 </head>
 <body>
@@ -98,13 +100,46 @@
 
         <section id="Projetos">
             <h1>Meus projetos 📊</h1>
+             
 
+            <!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide"><img src="img/1660148783279.jpg" alt=""></div>
+    <div class="swiper-slide"><img src="img/1660148783279.jpg" alt=""></div>
+    <div class="swiper-slide"><img src="img/1660148783279.jpg" alt=""></div>
+    <div class="swiper-slide"><img src="img/1660148783279.jpg" alt=""></div>
+    <div class="swiper-slide"><img src="img/1660148783279.jpg" alt=""></div>
+    
+  </div>
 
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+  <!-- If we need scrollbar -->
+  <div class="swiper-scrollbar"></div>
+</div>
         </section>
 
     </main>
     
-    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 
+
+    <script>
+
+        const swiper = new Swiper('.swiper', {
+        spaceBetween: 10,
+        slidesPerView: 2,
+
+        });d
+
+    </script>
 </body>
 </html>
