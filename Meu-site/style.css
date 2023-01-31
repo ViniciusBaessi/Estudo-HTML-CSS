@@ -130,3 +130,18 @@ strong {
 }
 
 
+
+#Redes-sociais div {
+    display: inline-flex;
+    margin-left: 26px;
+}
+
+
+#Redes-sociais img {
+    width: 50px;
+}
+
+#Redes-sociais p {
+    margin: 15px;
+}
+
