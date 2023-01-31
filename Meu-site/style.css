@@ -6,7 +6,7 @@
 
 :root {
     --cor-fundo: rgb(41, 43, 54);
-    --cor-botao: rgb(0, 171, 223);
+    --cor-botao: rgb(2, 154, 201);
     --cor-lista-menu:rgb(223, 222, 222);
 }
 
@@ -29,9 +29,21 @@ header {
     margin-bottom: 80px;
 }
 
+.botao {
+    display: none;
+}
 
 #botao {
     font-size: 45px;
+    color: white;
+}
+
+#botao:active {
+    color: var(--cor-botao);
+}
+
+.botao:checked~.lista-menu { /* Se o checkbox for preenchido executa o comando abaixo*/
+    display: block;
 }
 
 span {
@@ -39,6 +51,7 @@ span {
     padding-left: 4px;
     
 }
+
 
 .lista-menu {
     display: none;
@@ -56,19 +69,6 @@ span {
     
 }
 
-.botao:checked~.lista-menu{ /* Se o checkbox for preenchido executa o comando abaixo*/
-    display: block;
-}
-
-#botao{
-    color: white;
-}
-
-#botao:active {
-    color: var(--cor-botao);
-  }
-
-
 li{
     
     padding: 12px 0px 1em 0px;
@@ -82,9 +82,6 @@ a:hover {
    text-decoration: underline;
 }
 
-.botao {
-    display: none;
-}
 
 .cel {
 width: 50px;
@@ -115,7 +112,17 @@ section h1, h2 {
     
 }
 
+section h2 {
+    margin-bottom: 10px;
+}
+
 strong {
     color: var(--cor-botao);
-    
+}
+
+section p {
+    display: block;
+    text-align: justify;
+    text-indent: 12px;
+    padding: 20px;
 }
