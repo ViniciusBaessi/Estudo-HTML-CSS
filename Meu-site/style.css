@@ -92,6 +92,9 @@ margin-top: 0.6em;
 }
 
 
+/*------------------------------------------------------------------*/
+
+
 main img {
     display: flex;
     width: 100vw;
@@ -131,11 +134,18 @@ strong {
 }
 
 
+/*------------------------------------------------------------------*/
+
+#Redes-sociais div {
+    background-color: var(--cor-lista-menu);
+    border: 1px solid rgba(0, 0, 0, 0.089);
+}
+
 
 #Redes-sociais div a {
     display: inline-flex;
     margin-left: 26px;
-    padding-bottom: 12px;
+    padding: 10px 12px 10px 0px;
 }
 
 
@@ -146,6 +156,7 @@ strong {
 
 #Redes-sociais p {
     margin: 15px;
+    text-transform: none;
 }
 
 #Redes-sociais h1{
