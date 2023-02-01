@@ -22,6 +22,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgba(239, 239, 240, 0.514);
+    margin-top: 70px;
 }
 
 
@@ -31,9 +32,14 @@ header {
     width: 100vw;
     height: 70px;
     background-color: var(--cor-fundo);
-    position: relative;
     box-shadow: 0px 0px 3px black;
     margin-bottom: 80px;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    z-index: 999;
 }
 
 
@@ -199,7 +205,7 @@ strong {
 #Projetos h1{
     width: 100vw;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 150px;
     
     font-family: 'Oswald', sans-serif;
     letter-spacing: 1.5px;
