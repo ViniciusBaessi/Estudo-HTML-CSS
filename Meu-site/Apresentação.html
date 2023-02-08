@@ -6,23 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minha apresentação</title>
     
-    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/estilo.css">
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
-
-    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 
 
 </head>
 <body>
     <header>
-        <nav>
-            
-            
-            
+        <button id="burguer" onclick="menu()" >☰</button>
+        <nav id="menu">
             <ul class="lista-menu">
                 <li><a href="#inicio">Início</a></li>
                 
@@ -99,52 +93,38 @@
              <p>(Em breve os projetos serão adicionados)</p>
         
 
-            <div class="swiper">
-            <div class="swiper-pagination"></div>
-            <div class="swiper-wrapper">
-
-                <div class="swiper-slide"><img src="img/stickers.png" alt=""></div>
-                <div class="swiper-slide"><img src="img/stickers.png" alt=""></div>
-                <div class="swiper-slide"><img src="img/stickers.png" alt=""></div>
-                <div class="swiper-slide"><img src="img/stickers.png" alt=""></div>
-                
-            </div>
-
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-
-            </div>
+           
         </section>
 
         <section id="Habilidades">
             <h1>Tecnologias que utilizo em meus estudos⚡</h1>
 
-            <div>
-                <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML">
+            <div class="habi">
+                <img  src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML">
                 <p class="texto">Linguagem de marcação para páginas web.</p>
             </div>
 
-            <div>
+            <div class="habi">
                 <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS">
                 <p class="texto">Linguagem de folhas de estilo para personalização de aplicações web.</p>
             </div>
 
-            <div>
+            <div class="habi">
                 <img class="JS" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="Javascript">
                 <p class="texto">Linguagem de programação, juntamente com HTML e CSS, torna-se uma das três principais ferramentas de desenvolvimento web. </p>
             </div>
             
-            <div>
+            <div class="habi">
                 <img src="	https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React">
                 <p class="texto">Biblioteca popular do JavaScript que é usada para construir interfaces de usuário (IU).</p>
             </div>
 
-            <div>
+            <div class="habi">
                 <img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" alt="Angular">
                 <p class="texto">É um framework que utiliza HTML e TypeScript para criação de interfaces.</p>
             </div>
 
-            <div>
+            <div class="habi">
                 <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="">
                 <p class="texto">Plataforma de hospedagem de código-fonte e arquivos com controle de versão usando o Git.</p>
             </div>
@@ -155,34 +135,7 @@
     </main>
 
 
-
-
-
-
-
-
-
-
-
-
-    
-    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js">  
-    </script>
-
-
-    <script>
-
-        const swiper = new Swiper('.swiper', {
-        spaceBetween: 10,
-        slidesPerView: 2,
-        pagination: {
-        el: '.swiper-pagination',
-        type: 'bullets',
-        },
-
-        });
-
-    </script>
+    <script src="assets/script.js"></script>
     
 </body>
 </html>

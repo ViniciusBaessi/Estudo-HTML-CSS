@@ -1,0 +1,209 @@
+@charset "UTF-8";
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+
+
+:root {
+    --cor-fundo: rgb(41, 43, 54);
+    --cor-botao: rgb(2, 154, 201);
+    --cor-lista-menu:rgb(223, 222, 222);
+}
+
+
+
+
+#burguer {
+    position: fixed;
+    z-index: 2;
+    top: 2rem;
+    
+    cursor: pointer;
+    text-align: center;
+    
+}
+
+@media only screen and (max-width: 767px) {
+    header {
+        position: fixed;
+        z-index: 2;
+        top: 2rem;
+    
+        cursor: pointer;
+        
+    }
+  }
+
+
+
+/*------------------------------------------------------------1*/
+
+
+.foto {
+    display: block;
+    width: 100vw;
+    margin: auto;
+    width: 170px;
+    margin-top: 50px;
+    border-radius: 90px;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 3px black;
+}
+
+#inicio h1, h2 {
+    width: 80vw;
+    text-align: center;
+    text-align: justify;
+    margin: auto;
+    
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1.5px;
+
+
+}
+
+#inicio h2 {
+    margin-bottom: 10px;
+}
+
+strong {
+    color: var(--cor-botao);
+}
+
+#inicio .texto {
+    display: block;
+    text-align: justify;
+    text-indent: 12px;
+    padding: 20px;
+    margin: 4px;
+    margin-bottom: 100px;
+}
+
+
+/*------------------------------------------------------------------*/
+
+#Redes-sociais div {
+    background-color: var(--cor-lista-menu);
+    border: 1px solid rgba(0, 0, 0, 0.089);
+}
+
+#Redes-sociais div:hover {
+    background-image: linear-gradient(to left, rgb(182, 182, 182), transparent);
+    text-decoration: underline;
+}
+
+
+#Redes-sociais div a {
+    display: inline-flex;
+    margin-left: 26px;
+    padding: 10px 12px 10px 0px;
+}
+
+
+#Redes-sociais img {
+    width: 50px;
+    border-radius: 10px;
+}
+
+#Redes-sociais p {
+    margin: 15px;
+    text-transform: none;
+}
+
+#Redes-sociais h1{
+    width: 100vw;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 40px;
+
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1.5px;
+    font-weight: 550;
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+}
+
+#Redes-sociais a {
+   text-decoration: none;
+   color: black;
+   font-family: 'Oswald', sans-serif;
+}
+
+/*------------------------------------------------------------------*/
+
+
+#Projetos h1{
+    width: 100vw;
+    text-align: center;
+    margin-top: 150px;
+    
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1.5px;
+    font-weight: 550;
+    padding-bottom: 20px;
+}
+
+#Projetos p{
+    font-family: 'Oswald', sans-serif;
+    width: 100vw;
+    text-align: center;
+    
+    background-image: linear-gradient(to right, rgb(223, 224, 224), transparent);
+    padding: 5px;
+    border-bottom: 1px solid black;
+    padding-bottom: 9px;
+}
+
+
+
+/*------------------------------------------------------------*/
+
+#Habilidades h1{
+    width: 100vw;
+    text-align: center;
+    margin-top: 100px;
+    
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1.5px;
+    font-weight: 550;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid black;
+}
+
+
+.habi{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 16px 0px 0px 0px;
+    background-color: var(--cor-lista-menu);
+    border: 0.1em solid rgba(0, 0, 0, 0.082);
+    
+}
+
+.habi img {
+    width: 140px;
+    height: 42px;
+}
+
+#Habilidades .JS {
+    width: 160px;
+    height: 40px;
+}
+
+#Habilidades .texto {
+    text-align: justify;
+    text-indent: 12px;
+    padding: 15px 14px 15px 15px;
+    margin: 4px;
+}
+
+
+
