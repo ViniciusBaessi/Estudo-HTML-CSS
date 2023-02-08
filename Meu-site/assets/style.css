@@ -28,13 +28,24 @@ body {
 
 /*------------------------------------------------------------------*/
 
+
 header {
-    width: 100vw;
-    height: 70px;
+    
+    position: sticky;
+    top: 0;
+
+    z-index: 1;
+
     background-color: var(--cor-fundo);
-    position: relative;
     box-shadow: 0px 0px 3px black;
-    margin-bottom: 80px;
+
+    height: 60px;
+    
+}
+
+{
+  
+  
 }
 
 
@@ -92,23 +103,17 @@ a:hover {
 }
 
 
-.cel {
-width: 50px;
-float: right;
-margin-top: 0.6em;
-}
+
 
 
 /*------------------------------------------------------------------*/
 
 
-main img {
+
+.foto {
     display: flex;
     width: 100vw;
     margin: auto;
-    
-}
-.foto {
     width: 170px;
     border-radius: 90px;
     margin-bottom: 30px;
