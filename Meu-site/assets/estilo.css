@@ -305,11 +305,12 @@ strong {
     padding: 16px 0px 0px 0px;
     background-color: var(--cor-lista-menu);
     border: 0.1em solid rgba(0, 0, 0, 0.082);
-    background-image: linear-gradient(to left, rgb(182, 182, 182), transparent);
+    background-image: linear-gradient(to left, rgb(204, 204, 204), transparent);
     
 }
 
 .habi img {
+    border-radius: 20px;
     width: 140px;
     height: 42px;
     box-shadow: 0px 0px 2px black;
