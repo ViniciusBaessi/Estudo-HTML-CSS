@@ -91,7 +91,7 @@ Telas grandes: acima de 1200px
 
         position: absolute;
         left: -40px;
-        top: 1px;
+        top: 0px;
         list-style: none;
         width: 55vw;
     }
@@ -336,6 +336,7 @@ strong {
     margin: 4px;
     
 }
+
 
 
 .habi:hover {
