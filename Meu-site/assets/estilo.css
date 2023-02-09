@@ -180,9 +180,10 @@ strong {
     display: block;
     text-align: justify;
     text-indent: 12px;
-    padding: 20px;
+    padding: 24px;
     margin: 4px;
     margin-bottom: 100px;
+    line-height: 25px
 }
 
 
