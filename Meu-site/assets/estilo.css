@@ -21,7 +21,6 @@ body {
     background-color: rgba(239, 239, 240, 0.514);
     padding-top: 75px;
     overflow-x: scroll;
-
 }
 
 
@@ -39,15 +38,9 @@ Telas grandes: acima de 1200px
 
 */
 
-
-
-
-
 header {
     position: fixed;
     z-index: 2;
-    
-
 }
 
 header div {
@@ -72,8 +65,7 @@ header div {
     font-size: 2rem;
     color: white;
     background-color: transparent;
-    line-height:1.6rem;
-    
+    line-height:1.6rem; 
 }
 
 #burguer:active {
@@ -86,14 +78,12 @@ header div {
 }
 
 .lista-menu {
-
     position: absolute;
     left: -40px;
     top: 0px;
     list-style: none;
     width: 55vw;
 }
-
 
 .lista-menu a {
     text-decoration: none;
@@ -103,7 +93,6 @@ header div {
 }
 
 li{
-    
     padding: 12px 0px 1em 0px;
     background-color: var(--cor-lista-menu);
     text-transform: uppercase;
@@ -111,6 +100,9 @@ li{
 }
 
 
+  
+      
+    
 
 
 /*------------------------------------------------------------*/
@@ -141,11 +133,6 @@ li{
     font-size: 24px;
 }
 
-
-
-
-
-
 @keyframes pisca {
     0%, 100% {
         opacity: 1;
@@ -162,8 +149,6 @@ li{
     opacity: 1;
     animation: pisca .7s infinite;
 }
-
-
 
 #inicio h2 {
     margin-bottom: 10px;
@@ -183,16 +168,6 @@ strong {
     font-size: 15px;
 }
 
-
-
-
-
-
-
-
-
-
-
 /*------------------------------------------------------------------*/
 
 #Redes-sociais {
@@ -204,9 +179,6 @@ strong {
     width: 100%; 
     background-color: var(--cor-lista-menu);
     border: 1px solid rgba(0, 0, 0, 0.089);
-
-    
-    
 }
 
 #Redes-sociais div:hover {
@@ -279,12 +251,10 @@ strong {
     padding-bottom: 9px;
 }
 
-
-
 /*------------------------------------------------------------*/
 
 #Habilidades {
-    position: absolute;
+    width: 100%;
 }
 
 
@@ -344,8 +314,6 @@ strong {
     
 }
 
-
-
 .habi:hover {
     background-image: linear-gradient(to left, rgb(182, 182, 182), transparent);
 }
@@ -359,12 +327,13 @@ strong {
 @media screen and (min-width: 768px) and (max-width: 992px) {
     
     #inicio h1, h2 {
-        display: inline-flex;
-        justify-content: center;
+
+
+        display: block;
         width: 100%;
+        text-align: center;
         font-size: 30px;
     }
-
 
     #inicio .texto {
         display: block;
@@ -380,11 +349,9 @@ strong {
         font-size: 30px;
     }
 
-
     #Projetos h1 {
         font-size: 30px;
     }
-
 
     #Habilidades h1 {
         font-size: 30px;
@@ -392,14 +359,9 @@ strong {
 }
 
 
-
-
-
 /* Desktop */
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
-    
-
     #burguer {
       display: none; 
         
@@ -432,7 +394,6 @@ strong {
         background: linear-gradient(to top, var(--cor-fundo), rgba(255, 255, 255, 0.055));
         cursor: pointer;
     }
-    
 
     .lista-menu a {
         color: rgb(255, 255, 255);
@@ -442,9 +403,6 @@ strong {
         text-decoration: underline;  
     }
   
-    
- 
-
     #inicio {
         margin-top: 8px;
         width: 100%;
@@ -453,7 +411,6 @@ strong {
         border-bottom: 1px solid black;
         
     }
-
 
     #df {
        
@@ -470,7 +427,6 @@ strong {
         
     }
 
-
     /* col1 */
 
     .foto {
@@ -478,60 +434,20 @@ strong {
         border-radius: 150px;
     }
     
-    
-    
     /* col2 */
     #inicio h1, h2 {
         text-align: center;
         font-size: 35px;
     }
     
-    
- 
-    
     #inicio h2 {
         margin-bottom: 10px;
     }
-    
-
     
     #inicio .texto {
         font-size: 15px;
         margin: 32px 20px 0px 20px;
     }
-    
-    
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     
     #Redes-sociais {
         margin-top: 10px;
@@ -549,9 +465,9 @@ strong {
         flex-direction:column ;
         background-color: transparent;
         border: transparent;
-        
-
+        background-color: rgba(67, 68, 68, 0.096);
     }
+
     #redes > div:hover {
         background-image: linear-gradient(transparent, transparent);
     }
@@ -560,7 +476,6 @@ strong {
         display: none;
     }
 
-
     #redes a {
         display: flex;
         flex-direction:column ;
@@ -568,27 +483,314 @@ strong {
         align-content: center;
     }
 
+    #redes a:hover {
+        background: linear-gradient(to bottom, rgba(171, 228, 245, 0.486), transparent);
+    }
+
     #redes a img {
         width: 40px;
         border-radius: 4px;
+        
     }
 
     #redes a p {
         font-size: 14px;
     }
 
-
-    #Redes-sociais a {
-    text-decoration: none;
-    color: black;
-    font-family: 'Oswald', sans-serif;
+    #Projetos {
+        width: 100%;
     }
-
-
-
-
-
     
+    #Projetos h1{
+      
+        margin-top: 80px;
+        padding-bottom: 20px;
+        
+    }
+    
+    #Projetos p{
+        
+        width: 100%;
+        text-align: center;
+        
+        background-image: linear-gradient(to right, rgb(223, 224, 224), transparent);
+        padding: 5px;
+        border-bottom: 1px solid black;
+        margin-top: 40px;
+        padding-bottom: 9px;
+    }
+    
+    #Habilidades {
+        width: 100%;
+    }
+    
+    #Habilidades h1{
+        
+        margin-top: 100px;
+        margin-bottom: 40px;
+    }
+    
+    .habi{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        padding: 16px 0px 0px 0px;
+        background-color: var(--cor-lista-menu);
+        border: 0.1em solid rgba(0, 0, 0, 0.082);
+        background-image: linear-gradient(to left, rgb(204, 204, 204), transparent);
+        
+    }
+    
+    .habi img {
+        border-radius: 20px;
+        width: 140px;
+        height: 42px;
+        box-shadow: 0px 0px 2px black;
+        
+    }
+    
+    #Habilidades .JS {
+        width: 160px;
+        height: 38px;
+        box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.418);
+    }
+    
+    #Habilidades .CSS {
+        width: 140px;
+        height: 47px;
+    }
+    
+    #Habilidades .texto {
+        text-align: justify;
+        text-indent: 12px;
+        padding: 15px 14px 15px 15px;
+        margin: 4px;
+        
+    }
+    
+    .habi:hover {
+        background-image: linear-gradient(to left, rgb(182, 182, 182), transparent);
+    } 
   
 }
 
+/* Telas grandes */
+
+@media screen and (min-width: 1200px) {
+
+    #burguer {
+        display: none; 
+          
+      }
+  
+      #menu {
+          display: flex;
+      }
+  
+      .lista-menu {
+          width: 98vw;
+          display: flex;
+          justify-content: flex-end;
+          position: absolute;
+          top: -59px;
+          list-style: none;
+      }
+  
+      .lista-menu li{
+          display: inline-block;
+          margin-left: 20px;
+          padding: 10px;
+          
+          background-color: transparent;
+          border: none;
+          text-transform: uppercase;
+      }
+  
+      .lista-menu li:hover {
+          background: linear-gradient(to top, var(--cor-fundo), rgba(255, 255, 255, 0.055));
+          cursor: pointer;
+      }
+      
+      .lista-menu a {
+          color: rgb(255, 255, 255);
+      }
+  
+      .lista-menu a:hover {
+          text-decoration: underline;  
+      }
+    
+      #inicio {
+          margin-top: 8px;
+          width: 100%;
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          border-bottom: 1px solid black;
+          
+      }
+  
+      #df {
+         
+          display: flex;
+          align-items: center;
+      }
+      
+      #dt {
+          
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+          justify-content:center;
+          
+      }
+  
+      /* col1 */
+  
+      .foto {
+          width: 250px;
+          border-radius: 150px;
+      }
+      
+      /* col2 */
+      #inicio h1, h2 {
+          text-align: center;
+          font-size: 35px;
+      }
+      
+      #inicio h2 {
+          margin-bottom: 10px;
+      }
+      
+      #inicio .texto {
+          font-size: 15px;
+          margin: 32px 20px 0px 20px;
+      }
+      
+      #Redes-sociais {
+          margin-top: 10px;
+          width: 100%;
+          
+      }
+  
+      #redes {
+          display: flex;
+          align-content: space-between;
+      }
+  
+      #redes > div {
+          display: flex;
+          flex-direction:column ;
+          background-color: transparent;
+          border: transparent;
+          background-color: rgba(67, 68, 68, 0.096);
+ 
+      }
+      #redes > div:hover {
+          background-image: linear-gradient(transparent, transparent);
+      }
+      
+      #Redes-sociais h1 {
+          display: none;
+      }
+  
+      #redes a {
+          display: flex;
+          flex-direction:column ;
+          align-items: center;
+          align-content: center;
+      }
+  
+      #redes a:hover {
+          background: linear-gradient(to bottom, rgba(171, 228, 245, 0.486), transparent);
+      }
+  
+      #redes a img {
+          width: 40px;
+          border-radius: 4px;
+          
+      }
+  
+      #redes a p {
+          font-size: 14px;
+      }
+  
+      #Projetos {
+          width: 100%;
+      }
+      
+      #Projetos h1{
+        
+          margin-top: 80px;
+          padding-bottom: 20px;
+          
+      }
+      
+      #Projetos p{
+          
+          width: 100%;
+          text-align: center;
+          
+          background-image: linear-gradient(to right, rgb(223, 224, 224), transparent);
+          padding: 5px;
+          border-bottom: 1px solid black;
+          margin-top: 40px;
+          padding-bottom: 9px;
+      }
+  
+      #Habilidades {
+          width: 100%;
+      }
+      
+      
+      #Habilidades h1{
+          
+          margin-top: 100px;
+          margin-bottom: 40px;
+      }
+      
+      .habi{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          
+          padding: 16px 0px 0px 0px;
+          background-color: var(--cor-lista-menu);
+          border: 0.1em solid rgba(0, 0, 0, 0.082);
+          background-image: linear-gradient(to left, rgb(204, 204, 204), transparent);
+          
+      }
+      
+      .habi img {
+          border-radius: 20px;
+          width: 140px;
+          height: 42px;
+          box-shadow: 0px 0px 2px black;
+          
+      }
+      
+      #Habilidades .JS {
+          width: 160px;
+          height: 38px;
+          box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.418);
+      }
+      
+      #Habilidades .CSS {
+          width: 140px;
+          height: 47px;
+      }
+      
+      #Habilidades .texto {
+          text-align: justify;
+          text-indent: 12px;
+          padding: 15px 14px 15px 15px;
+          margin: 4px;
+          
+      }
+      
+      .habi:hover {
+          background-image: linear-gradient(to left, rgb(182, 182, 182), transparent);
+      }  
+  
+}
