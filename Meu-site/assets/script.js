@@ -15,5 +15,8 @@ function menu() {
     //A expressão menu.style.display acessa a propriedade "display" do estilo do elemento "menu"
 
     menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+
+
+    
 }
 
