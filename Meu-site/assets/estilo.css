@@ -58,7 +58,8 @@ Telas grandes: acima de 1200px
         z-index: 2;
         background-color: var(--cor-fundo);
         height: 75px;
-        width: 100%;  
+        width: 100%; 
+         
     }
 
     #burguer {
