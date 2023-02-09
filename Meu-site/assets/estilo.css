@@ -50,12 +50,13 @@ header {
 }
 
 header div {
+    width: 100vw; 
     position: fixed;
     top: 0;
     z-index: 0;
     background-color: var(--cor-fundo);
     height: 75px;
-    width: 100%; 
+    
     box-shadow: 0px 0px 3px black;
 }
 
@@ -346,7 +347,7 @@ strong {
 /*------------------------------------------------------------*/
 
 #Habilidades {
-    width: 100vw;
+    position: absolute;
 }
 
 
