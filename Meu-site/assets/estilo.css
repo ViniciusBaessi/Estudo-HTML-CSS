@@ -45,7 +45,7 @@ body {
         z-index: 2;
         background-color: var(--cor-fundo);
         height: 70px;
-        width: 100vw;  
+        width: 100%;  
     }
 
     #burguer {
@@ -100,10 +100,13 @@ body {
 
 /*------------------------------------------------------------*/
 
+#inicio {
+    width: 100%;
+}
 
 .foto {
     display: block;
-    width: 100vw;
+    width: 100%;
     margin: auto;
     width: 170px;
     margin-top: 200px;
@@ -145,9 +148,17 @@ strong {
 
 /*------------------------------------------------------------------*/
 
+#Redes-sociais {
+    width: 100%;
+}
+
 #Redes-sociais div {
+    display: inline-block;
+    width: 100%; 
     background-color: var(--cor-lista-menu);
     border: 1px solid rgba(0, 0, 0, 0.089);
+    
+    
 }
 
 #Redes-sociais div:hover {
@@ -174,7 +185,7 @@ strong {
 }
 
 #Redes-sociais h1{
-    width: 100vw;
+    width: 100%;
     text-align: center;
     margin-top: 120px;
     margin-bottom: 40px;
@@ -194,9 +205,12 @@ strong {
 
 /*------------------------------------------------------------------*/
 
+#Projetos {
+    width: 100%;
+}
 
 #Projetos h1{
-    width: 100vw;
+    width: 100%;
     text-align: center;
     margin-top: 150px;
     
@@ -221,8 +235,13 @@ strong {
 
 /*------------------------------------------------------------*/
 
+#Habilidades {
+    width: 100%;
+}
+
+
 #Habilidades h1{
-    width: 100vw;
+    width: 100%;
     text-align: center;
     margin-top: 100px;
     
@@ -235,12 +254,13 @@ strong {
 }
 
 
+
 .habi{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    
     padding: 16px 0px 0px 0px;
     background-color: var(--cor-lista-menu);
     border: 0.1em solid rgba(0, 0, 0, 0.082);
